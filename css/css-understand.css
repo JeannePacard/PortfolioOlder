@@ -1,12 +1,15 @@
 .top-title {
-  display: flex;
-  flex-direction: row;
   margin-left: 10%;
   margin-top: 8%;
 }
 
 .title {
   font-family: Munich;
+}
+
+.top-name-img {
+  display: flex;
+  flex-direction: row;
 }
 
 .top-firsttitle {
@@ -17,14 +20,11 @@
   font-size: 1.1vw;
 }
 
-.top-right-img {
-  width: 15%;
-  margin-left: 2%;
-  margin-top: 1%;
-}
-
 .img-puzzle {
-  width: 80%;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 10%;
+  height: 10%;
 }
 
 /* first competence */
@@ -150,7 +150,8 @@
   .second-competence-subtitle,
   .first-competence-text,
   .second-competence-text,
-  .top-subtitle {
+  .top-subtitle,
+  .see-button {
     font-size: 16px;
   }
   .top-firsttitle {

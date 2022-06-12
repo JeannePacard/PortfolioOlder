@@ -386,7 +386,9 @@
   .third-competence-text,
   .fourth-competence-text,
   .fifth-competence-text,
-  .top-subtitle {
+  .top-subtitle,
+  .see-button,
+  .see-button2 {
     font-size: 16px;
   }
   .top-firsttitle {
@@ -403,5 +405,9 @@
     margin-top: auto;
     margin-bottom: auto;
     height: 45%;
+  }
+  .number-one,
+  .number-three {
+    margin-left: 0;
   }
 }

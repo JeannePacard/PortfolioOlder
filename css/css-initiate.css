@@ -186,4 +186,9 @@
   .second-competence-title {
     font-size: 40px;
   }
+  .first-competence-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 45%;
+  }
 }

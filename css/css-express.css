@@ -227,7 +227,8 @@
   .second-competence-text,
   .third-competence-subtitle,
   .third-competence-text,
-  .top-subtitle {
+  .top-subtitle,
+  .see-button {
     font-size: 16px;
   }
   .top-firsttitle {
