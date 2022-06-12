@@ -391,6 +391,9 @@
   .see-button2 {
     font-size: 16px;
   }
+  .see-button {
+    margin-left: 40%;
+  }
   .top-firsttitle {
     font-size: 80px;
   }
