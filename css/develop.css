@@ -1,0 +1,407 @@
+.top-title {
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.title {
+  font-family: Munich;
+}
+
+.top-name-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-firsttitle {
+  font-size: 8.4vw;
+}
+
+.top-subtitle {
+  font-size: 1.1vw;
+}
+
+.img-web {
+  margin-left: 2%;
+  margin-top: 1%;
+  width: 10%;
+  height: 10%;
+}
+
+/* first competence */
+
+.first-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.first-competence-number {
+  width: 100%;
+}
+
+.number-one {
+  font-size: 18vw;
+  margin-left: 20%;
+}
+
+.rainbowleft {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin-top: -80%;
+  margin-left: -5%;
+}
+
+/* right */
+
+.first-competence-infos {
+  margin-left: -8%;
+  margin-top: 2%;
+}
+
+.first-competence-title {
+  font-size: 3.5vw;
+}
+
+.first-competence-subtitle {
+  font-size: 1.1vw;
+}
+
+.first-competence-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.first-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  width: 90%;
+}
+
+.first-competence-img {
+  margin-top: -5%;
+  width: 45%;
+}
+
+.see-button {
+  margin-left: 60%;
+  color: #f4f2e6;
+  font-size: 1.1vw;
+  text-decoration: none;
+  border: solid 1px #f4f2e6;
+  padding: 1.5% 3%;
+  border-radius: 20px;
+}
+
+/* second competence */
+
+.second-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.second-competence-number {
+  width: 40%;
+}
+
+.number-two {
+  font-size: 18vw;
+  margin-left: 20%;
+}
+
+.rainbowright {
+  position: relative;
+  z-index: -1;
+  width: 190%;
+  margin-top: -150%;
+  margin-left: -60%;
+}
+
+/* left */
+
+.second-competence-poster {
+  width: 180%;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.animation-isis {
+  width: 100%;
+}
+
+.second-competence-title {
+  font-size: 3.5vw;
+  width: 120%;
+  margin-left: -20%;
+  text-align: right;
+}
+
+.second-competence-subtitle {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.second-competence-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: right;
+}
+
+.see-button2 {
+  color: #f4f2e6;
+  font-size: 1.1vw;
+  text-decoration: none;
+  border: solid 1px #f4f2e6;
+  padding: 1.5% 3%;
+  border-radius: 20px;
+}
+
+/* third competence */
+
+.number-three {
+  font-size: 18vw;
+}
+
+.third-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.third-competence-number {
+  width: 100%;
+}
+
+.rainbowleft2 {
+  position: relative;
+  z-index: -1;
+  width: 170%;
+  margin-top: -120%;
+  margin-left: -5%;
+}
+
+/* right */
+
+.third-competence-infos {
+  margin-top: 2%;
+}
+
+.third-competence-title {
+  font-size: 3.5vw;
+}
+
+.third-competence-subtitle {
+  font-size: 1.1vw;
+  line-height: 1.5;
+}
+
+.third-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  width: 90%;
+}
+
+.third-competence-img {
+  width: 40%;
+  height: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* fourth competence */
+
+.fourth-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.fourth-competence-number {
+  width: 40%;
+}
+
+.number-fourth {
+  font-size: 18vw;
+  margin-left: 20%;
+}
+
+.rainbowright2 {
+  position: relative;
+  z-index: -1;
+  width: 150%;
+  margin-top: -110%;
+  margin-left: -50%;
+}
+
+/* left */
+
+.fourth-competence-poster {
+  width: 90%;
+  margin-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.portfolio-lena {
+  width: 100%;
+}
+
+.fourth-competence-title {
+  font-size: 3.5vw;
+  width: 120%;
+  margin-left: -20%;
+  text-align: right;
+}
+
+.fourth-competence-subtitle {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  text-align: right;
+}
+
+.fourth-competence-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.fourth-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: right;
+}
+
+/* fiveth competence */
+
+.number-five {
+  font-size: 18vw;
+}
+
+.fifth-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 80%;
+}
+
+.fifth-competence-number {
+  width: 100%;
+}
+
+.rainbowleft3 {
+  position: relative;
+  z-index: -1;
+  width: 120%;
+  margin-top: -85%;
+  margin-left: -5%;
+}
+
+/* right */
+
+.fifth-competence-infos {
+  margin-top: 2%;
+  width: 200%;
+  margin-left: -5%;
+}
+
+.fifth-competence-title {
+  font-size: 3.5vw;
+  width: 120%;
+}
+
+.fifth-competence-subtitle {
+  font-size: 1.1vw;
+  line-height: 1.5;
+}
+
+.fifth-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 3%;
+  width: 90%;
+}
+
+.fifth-competence-img {
+  width: 40%;
+  height: 40%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* mobile */
+
+@media (max-width: 1000px) {
+  .rainbowleft,
+  .rainbowright,
+  .rainbowleft2,
+  .rainbowleft3,
+  .rainbowright2 {
+    display: none;
+  }
+  .first-competence-subtitle,
+  .second-competence-subtitle,
+  .third-competence-subtitle,
+  .fourth-competence-subtitle,
+  .fifth-competence-subtitle,
+  .first-competence-text,
+  .second-competence-text,
+  .third-competence-text,
+  .fourth-competence-text,
+  .fifth-competence-text,
+  .top-subtitle {
+    font-size: 16px;
+  }
+  .top-firsttitle {
+    font-size: 80px;
+  }
+  .first-competence-title,
+  .second-competence-title,
+  .third-competence-title,
+  .fourth-competence-title,
+  .fifth-competence-title {
+    font-size: 40px;
+  }
+  .first-competence-img {
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 45%;
+  }
+}

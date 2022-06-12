@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  margin-bottom: 5%;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.left {
+  width: 70%;
+}
+
+.left-title {
+  font-family: Munich;
+  font-size: 14.4vw;
+}
+
+.left-subtitle {
+  font-size: 1.8vw;
+}
+
+.left-contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  margin-left: 15%;
+  font-size: 1.7vw;
+}
+
+.left-contact a {
+  text-decoration: none;
+  color: #f4f2e6;
+  line-height: 1.8;
+}
+
+.left-contact a:hover {
+  font-weight: bold;
+}
+
+.profil-img {
+  margin-top: -40%;
+  margin-left: 5%;
+  width: 85%;
+}
+
+.carre {
+  width: 45%;
+  margin-left: 60%;
+}

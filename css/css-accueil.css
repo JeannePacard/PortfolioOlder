@@ -1,0 +1,174 @@
+.title {
+  font-family: Munich;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+  width: 100%;
+}
+
+.first-div-left {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.first-div-left-title {
+  font-size: 14.5vw;
+  margin-left: 12%;
+  position: relative;
+  z-index: 10;
+}
+
+.first-div-left-text {
+  margin-left: 15%;
+  width: 70%;
+  font-size: 1.5vw;
+  line-height: 1.5;
+}
+
+.first-div-middle-img {
+  margin-top: 3%;
+  width: 30vw;
+}
+
+.first-div-right {
+  text-align: right;
+  width: 46%;
+}
+
+.first-div-right-arc {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin-left: -20%;
+  margin-top: -10%;
+}
+
+.first-div-right-developer,
+.first-div-right-designer {
+  font-size: 7vw;
+}
+
+/* skills */
+
+.skills {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* left */
+
+.skills-left {
+  margin-left: 10%;
+  width: 30%;
+}
+
+.skills-name {
+  font-size: 1.9vw;
+  line-height: 1.7;
+}
+
+.skills-arc-img {
+  position: relative;
+  z-index: -1;
+  margin-top: -80%;
+  margin-left: -11%;
+}
+
+.arc-img {
+  width: 92%;
+}
+
+/* right */
+
+.skills-right-title {
+  font-size: 8.4vw;
+  margin-left: 3%;
+}
+
+.skills-right-text {
+  margin-top: 2%;
+  font-size: 1.5vw;
+  line-height: 1.5;
+  width: 75%;
+  margin-left: 3%;
+}
+
+/* understand */
+
+.understanding,
+.design,
+.express,
+.develop {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-bottom: 10%;
+}
+
+.initiate {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin-bottom: 5%;
+}
+
+.part-title {
+  font-size: 8.4vw;
+}
+
+.part-subtitle {
+  font-size: 1.1vw;
+}
+
+.part-text {
+  width: 80%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 1.2vw;
+  line-height: 1.5;
+}
+
+.part-link {
+  color: #f4f2e6;
+  text-decoration: none;
+  font-size: 1.2vw;
+}
+
+.part-link:hover {
+  text-decoration: underline;
+}
+
+/* mobile */
+
+@media (max-width: 1000px) {
+  .first-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-div-left {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first-div-left-title {
+    font-size: 180px;
+    margin-left: 0;
+  }
+  .first-div-left-text {
+    margin-left: 0;
+    width: 80%;
+    font-size: 20px;
+  }
+  .first-div-right-arc {
+    display: none;
+  }
+  .first-div-right {
+    display: none;
+  }
+}

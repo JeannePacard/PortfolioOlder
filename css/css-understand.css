@@ -1,0 +1,163 @@
+.top-title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-top: 8%;
+}
+
+.title {
+  font-family: Munich;
+}
+
+.top-firsttitle {
+  font-size: 8.4vw;
+}
+
+.top-subtitle {
+  font-size: 1.1vw;
+}
+
+.top-right-img {
+  width: 15%;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+.img-puzzle {
+  width: 80%;
+}
+
+/* first competence */
+
+.first-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+.first-competence-number {
+  width: 100%;
+}
+
+.number-one {
+  font-size: 18vw;
+  margin-left: 20%;
+}
+
+.rainbowleft {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  margin-top: -80%;
+  margin-left: -5%;
+}
+
+/* right */
+
+.first-competence-infos {
+  margin-left: -13%;
+  margin-top: 2%;
+}
+
+.first-competence-title {
+  font-size: 3.5vw;
+}
+
+.first-competence-subtitle {
+  font-size: 1.1vw;
+}
+
+.first-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+}
+
+/* second competence */
+
+.second-competence {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+.second-competence-number {
+  width: 100%;
+}
+
+.number-two {
+  font-size: 18vw;
+  margin-top: 20%;
+  margin-left: 20%;
+}
+
+.rainbowright {
+  position: relative;
+  z-index: -1;
+  width: 165%;
+  margin-top: -115%;
+  margin-left: -35%;
+}
+
+/* left */
+
+.second-competence-title {
+  font-size: 3.5vw;
+  text-align: right;
+}
+
+.second-competence-subtitle {
+  font-size: 1.1vw;
+  text-align: right;
+}
+
+.second-competence-text {
+  font-size: 1.1vw;
+  line-height: 1.5;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  text-align: right;
+}
+
+.see-button {
+  margin-left: 15%;
+  color: #f4f2e6;
+  font-size: 1.1vw;
+  text-decoration: none;
+  border: solid 1px #f4f2e6;
+  padding: 1.5% 3%;
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .first-competence,
+  .second-competence {
+    width: 90%;
+  }
+  .rainbowleft,
+  .rainbowright {
+    display: none;
+  }
+  .first-competence-subtitle,
+  .second-competence-subtitle,
+  .first-competence-text,
+  .second-competence-text,
+  .top-subtitle {
+    font-size: 16px;
+  }
+  .top-firsttitle {
+    font-size: 80px;
+  }
+  .first-competence-title,
+  .second-competence-title {
+    font-size: 40px;
+  }
+}
